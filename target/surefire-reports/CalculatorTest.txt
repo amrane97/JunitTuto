@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE!
+CalculatorTest.testExtractEachNumberNegative()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Calculator.extractEachNumber(int)" because "this.calculator" is null
+	at CalculatorTest.testExtractEachNumberNegative(CalculatorTest.java:128)
+
+CalculatorTest.testExtractEachNumber2()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Calculator.extractEachNumber(int)" because "this.calculator" is null
+	at CalculatorTest.testExtractEachNumber2(CalculatorTest.java:108)
+
+CalculatorTest.testMultiplyDoubles()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Calculator.multiply(double, double)" because "this.calculator" is null
+	at CalculatorTest.testMultiplyDoubles(CalculatorTest.java:150)
+
+CalculatorTest.testExtractEachNumber()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Calculator.extractEachNumber(int)" because "this.calculator" is null
+	at CalculatorTest.testExtractEachNumber(CalculatorTest.java:97)
+
+CalculatorTest.testExtractEachNumberZero()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Calculator.extractEachNumber(int)" because "this.calculator" is null
+	at CalculatorTest.testExtractEachNumberZero(CalculatorTest.java:119)
+
+CalculatorTest.testLongCalcule()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Calculator.longCalculation()" because "this.calculator" is null
+	at CalculatorTest.testLongCalcule(CalculatorTest.java:88)
+
+CalculatorTest.testAddDoubles()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "Calculator.add(double, double)" because "this.calculator" is null
+	at CalculatorTest.testAddDoubles(CalculatorTest.java:139)
+
